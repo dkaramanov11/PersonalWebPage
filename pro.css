@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(#536976,#bbd2c5) no-repeat;
+    background-color: #bbd2c5;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerTxt{
+    display: flex;
+    margin-left: 405px;
+    margin-top: 50px;
+}
+.card{
+    height:344px; width:612px;
+    margin: 50px;
+    box-shadow:5px 5px 20px black;
+    overflow: hidden;
+    display: flex;
+}
+.intro{
+    height:50px; width:612px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 222px;
+    background: rgb(27,27,27, .5);
+    color: white;
+    transition: .5s;
+}
+
+p{
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 145px;
+    bottom: 222px;
+    background: black;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+#titlepro{
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    color: lightcyan;
+    height: 70px;
+    text-shadow: 2px 2px 4px #000000;
+    border-top: white;
+    border-bottom: #bbd2c5 solid 2px;
+    border-top: #bbd2c5 solid 2px;
+    margin-top: 10px;
+}
+.containerTxt2{
+    display: flex;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+.card2{
+    height:250px; width:700px;
+    margin: 50px;
+    box-shadow:5px 5px 20px black;
+    overflow: hidden;
+    display: flex;
+}
+.intro2{
+    height:50px; width:700px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -140px;
+    background: rgb(27,27,27, .5);
+    color: white;
+    transition: .5s;
+}
+
+p{
+    visibility: hidden;
+    opacity: 0;
+}
+.card2:hover{
+    cursor: pointer;
+}
+.card2:hover .intro2{
+    height: 105px;
+    bottom: -140px;
+    background: black;
+}
+.card2:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+#back{
+    float: left;
+    margin-top: 8px;
+}
+#titlepro>h1{
+    font-size: 50px;
+}
+#back:hover{
+    opacity: 40%;
+}
